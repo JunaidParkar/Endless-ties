@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+body{
+    height: 100vh !important;
+    overflow: auto;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.navbb{
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.smm{
+    bottom: 0;
+    left: 0;
+    width: 100vw !important;
+}
+
+.mainn{
+    margin: 50px 0;
+    /* margin-bottom: 150px; */
+    min-height: 0;
+    overflow-x: auto;
+}
